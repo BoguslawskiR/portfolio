@@ -1,0 +1,64 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.main--parallax {
+	background: url("img/pattern.png") no-repeat fixed center;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.main__photo {
+	margin-left: 5em;
+	height: 100vh;
+	display: flex;
+	align-items: flex-end;
+}
+
+.main__info {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 80px;
+
+}
+
+.photo__me {
+	height: 90%;
+}
+
+.info__text {
+	color: #27ae60;
+	font-size: 5em;
+	width: 100%;
+}
+
+.info__job--thin {
+	font-family: 'Raleway', sans-serif, 100;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.info__sname {
+	text-align: right;
+}
+
+.links__box {
+	width: 7em;
+	height: 7em;
+}
+
+.info__links {
+	width: 100%;
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
