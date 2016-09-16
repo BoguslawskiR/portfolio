@@ -61,6 +61,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
+	margin-bottom: 10%;
 }
 
 .links__box {
@@ -71,16 +72,25 @@
 
 .info__shape--short {
 	width: 65%;
-	color: #27ae60;
+	background-color: #27ae60;
 	margin-bottom: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 1px;
 }
 
 .info__shape--long {
 	width: 75%
+	background-color: #27ae60;;
 	color: #27ae60;
+	margin-bottom: 5%;
+	border-bottom: 1px solid #27ae60;
+	border-top: none;
 }
 
 .info__shapes {
 	width: 100%;
-	text-align: center;
+
 }
+
