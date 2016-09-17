@@ -7,6 +7,12 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+/*
+=================================================================
+LANDING PAGE
+=================================================================
+*/
+
 .main--parallax {
 	background: url("img/pattern.png") no-repeat fixed center;
 	background-size: cover;
@@ -15,12 +21,28 @@
 	display: flex;
 }
 
+/*
+============
+PHOTO
+============
+*/
+
 .main__photo {
 	margin-left: 5%;
 	height: 100vh;
 	display: flex;
 	align-items: flex-end;
 }
+
+.photo__me {
+	height: 90%;
+}
+
+/*
+==========
+TEXT LP
+==========
+*/
 
 .main__info {
 	width: 50%;
@@ -33,9 +55,6 @@
 
 }
 
-.photo__me {
-	height: 90%;
-}
 
 .info__text {
 	color: #27ae60;
@@ -53,6 +72,12 @@
 	text-align: right;
 }
 
+/*
+===========
+LINKS
+===========
+*/
+
 .info__links {
 	width: 100%;
 	height: 25%
@@ -69,6 +94,12 @@
  	height: 80%;
  	margin-left: 10px;
 }
+
+/*
+===========
+SHAPES
+===========
+*/
 
 .info__shape--short {
 	width: 65%;
