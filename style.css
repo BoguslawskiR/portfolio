@@ -220,6 +220,12 @@ Skills
 	background-size: cover;
 }
 
+/*
+============
+HEADER
+============
+*/
+
 .skills__header {
 	font-size: 75px;
 	margin-right: auto;
@@ -227,16 +233,26 @@ Skills
 	color: #27ae60;
 	background-color: rgba(33,33,33,0.5);
 	width: 100%;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 	text-align: center;
 }
+
+/*
+===========
+BOXES
+===========
+*/
 
 .box__want {
 	min-width: 25%;
 	min-height: 10%;
 	background-color: rgba(192, 57, 43, 0.7);
-	display: inline-block;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	
 }
 
@@ -245,6 +261,11 @@ Skills
 	min-height: 10%;
 	background-color: rgba(230, 126, 34, 0.7);
 	display: inline-block;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	
 }
 
@@ -252,23 +273,99 @@ Skills
 	min-width: 25%;
 	min-height: 10%;
 	background-color: rgba(241, 196, 15, 0.7);
-	display: inline-block;
-	flex-basis: 25%;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	
 }
 
 .box__high {
 	min-width: 25%;
-	min-height: 25vw;
+	min-height: 10%;
 	background-color: rgba(22, 160, 133, 0.7);
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	
 }
 
 .skills__box {
 	min-width: 100%;
-	min-height: 10%;
+	min-height: 25vw;
 	display: flex;
 }
 
-.skills__my
+
+.box__item {
+	width: 10vw;
+	height: 10vw;
+	padding: 10px;
+}
+
+/*
+===========
+MY JOB
+===========
+*/
+
+.skills__myjob {
+	width: 100%;
+	background-color: rgba(52, 73, 94, 0.7);
+	height: 50vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.myjob__icon {
+	padding: 10px;
+}
+
+
+
+/*
+=====================================================================
+Experience & Graduate
+=====================================================================
+*/
+
+
+.expgra {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("img/bg2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.expbox__img {
+	width: 5vw;
+	height: 5vw;
+	display: inline-block;
+}
+
+.expgra__expbox {
+	margin-left: 20%;
+
+}
+
+.expbox__text {
+	text-align: right;
+}
+
+.expbox__flexbox {
+	display: flex;
+	flex-direction: column;
+	align-items: inherit;
+}
+
+.expbox__flexbox--upper {
+	display: flex;
+}
