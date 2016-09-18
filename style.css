@@ -333,39 +333,107 @@ Experience & Graduate
 */
 
 
-.expgra {
+.experiencegraduate {
 	height: 100vh;
-	width: 100vw;
+	max-width: 100vw;
 	background-image: url("img/bg2.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-.expbox__img {
+.expgra {
+	display: flex;
+	justify-content: center;
+}
+
+.expgra__img {
 	width: 5vw;
 	height: 5vw;
-	display: inline-block;
+	margin-right: 40%;
+	margin-left: 40%;
+	margin-top: 10%;
 }
 
-.expgra__expbox {
-	margin-left: 20%;
-
+.expgra__box {
+	height: 45vh;
+	width: 25vw;
+	background-color: rgba(255,255,255, 0.4);
+	margin-left: 15px;
 }
 
-.expbox__text {
-	text-align: right;
+.experiencegraduate__header {
+	font-size: 60px;
+	color: #27ae60;
+	text-align: center;
+	margin-bottom: 7vh;
+	margin-top: 4vh;
 }
 
-.expbox__flexbox {
-	display: flex;
-	flex-direction: column;
-	align-items: inherit;
+.expgra__text {
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 10%;
 }
 
-.expbox__flexbox--upper {
-	display: flex;
+.expgra__button {
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	background-color: rgb(255,153,142);
+	color: white;
+	border-radius: 50px;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+    text-decoration: none;
+    position: relative;
+    font-size: 25px;
+    margin-top: 5vh;
+}
+
+.expgra__button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.expgra__button:after,
+.expgra__button:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  border-bottom: 1px solid rgb(255,153,142);
+  top: 50%;
+  width: 50%;
+}
+
+.expgra__button:after {
+	left: 100%;
+	margin-right: 15px;
+}
+
+.expgra__button:before {
+	right: 100%;
+	margin-left: 15px;
+}
+
+/*
+====================================================================
+PROJECTS
+====================================================================
+*/
+
+.projects {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.projects_view {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	max-width: 95%;
 }
