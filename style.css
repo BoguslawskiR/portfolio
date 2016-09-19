@@ -92,8 +92,8 @@ LINKS
 }
 
 .links__box {
- 	width: 12%;
- 	height: 80%;
+ 	width: 6vw;
+ 	height: 10.6666vh;
  	margin-left: 10px;
 }
 
@@ -366,6 +366,7 @@ Experience & Graduate
 	background-color: rgba(255,255,255, 0.4);
 	margin-left: 15px;
 	border-bottom: #27ae60 solid 2px;
+	font-size: 16px;
 }
 
 .experiencegraduate__header {
@@ -443,7 +444,7 @@ PROJECTS
 	align-items: center;
 	clear: both;
 	flex-direction: column;
-	padding-top: 10vh;
+	padding-top: 1%;
 	color: #27ae60;
 
 }
@@ -556,8 +557,8 @@ ARTICLES
 */
 .articles {
 	max-width: 100vw;
-	height: 50vh;
 	background: black;
+	min-height: 66vh;
 }
 
 .articles__header {
@@ -580,8 +581,9 @@ HOVEREFFECT2
 */
 
 .hovereffect1 {
-  width: 25%;
   float: left;
+  width: 25%;
+  height: 25vw;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -604,6 +606,8 @@ HOVEREFFECT2
 .hovereffect1 img {
   display: block;
   position: relative;
+  width: 100%;
+  height: 100%;
   max-width: none;
   width: calc(100% + 60px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
@@ -614,7 +618,7 @@ HOVEREFFECT2
 
 .hovereffect1 h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #27ae60;
   position: relative;
   font-size: 17px;
   background-color: transparent;
@@ -672,7 +676,7 @@ CONTACT
 
 .contact {
 	max-width: 100vw;
-	height: 100vh;
+	height: 20vw;
 	background: black;
 
 }
@@ -681,4 +685,38 @@ CONTACT
 	background-color: #27ae60;
 	height: 2px;
 	border: none;
+}
+
+.contact__header {
+	font-size: 75px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #27ae60;
+}
+
+.header__text--small {
+	font-size: 30px;
+}
+
+.contact__info	{
+	color: white;
+}
+
+.contact__flexbox {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2%;
+}
+
+.footer {
+	text-align: center;
+	font-size: 10px;
+	max-height: 12px;
+}
+
+.info__mail {
+	color: white;
 }
