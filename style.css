@@ -720,3 +720,69 @@ CONTACT
 .info__mail {
 	color: white;
 }
+
+/*
+======================================================================================
+MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES
+======================================================================================
+*/
+
+@media (max-width: 786px) {
+
+	.main__photo {
+		display: none;
+	}
+
+	.main__info {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-image: url("img/me.png");
+		background-size: cover;
+		background-position: center;
+		font-size: 30px; 
+
+	}
+
+	.info__text {
+		font-size: 70px;
+	}
+
+	.info__fname {
+		margin-top: 5vh;
+	}
+
+	.links__box {
+		width: 60px;
+		height: 60px;
+	}
+
+	.aboutme {
+		height: 75vh;
+	}
+
+	.hovereffect {
+		width: 50%;
+	}
+
+	.skills__myjob {
+		height: 25vh;
+	}
+
+	.skills {
+		height: 75vh;
+	}
+
+	.hovereffect1 {
+		width: 50%;
+		height: 50vw;
+	}
+
+	.articles {
+		height:133vw;
+	}
+
+	.contact {
+		height: 33vw;
+	}
+}
