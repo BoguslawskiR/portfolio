@@ -829,12 +829,16 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 	}
 
 	.articles {
-		height: 150vh;
+		height: 500vw;
 	}
 
 	.expgra__img {
 		height: 15vw;
 		width: 15vw;
+	}
+
+	.contact {
+		height: 50vh;
 	}
 }
 
