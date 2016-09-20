@@ -831,7 +831,7 @@ SKILLS
 	}
 
 	.skills {
-		height: 150vh;
+		height: 100vh;
 	}
 
 	.skills__box {
@@ -887,7 +887,7 @@ CONTACT
 */
 
 	.contact {
-		height: 100vh;
+		height: 50vh;
 	}
 
 	.info__job--thin {
