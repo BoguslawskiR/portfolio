@@ -809,5 +809,17 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 	.projects {
 		height: 200vh;
 	}
+
+	.expgra {
+		flex-direction: column;
+	}
+
+	.experiencegraduate {
+		height: 200vh;
+	}
+
+	.expgra__box {
+		width: 80%;
+	}
 }
 
