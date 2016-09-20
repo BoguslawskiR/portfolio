@@ -185,6 +185,7 @@ QuoteBox
 	background-color: #e67e22;
 	position: absolute;
 	bottom: 0;
+	left: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -220,6 +221,7 @@ Skills
 	background-image: url("img/sketch.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	overflow: hidden;
 }
 
 /*
@@ -317,13 +319,15 @@ MY JOB
 .skills__myjob {
 	width: 100%;
 	background-color: rgba(52, 73, 94, 0.7);
-	height: 50vh;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+	height: 40%;
 }
 
 .myjob__icon {
 	padding: 10px;
+	height: 50%;
 }
 
 
@@ -784,5 +788,23 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 
 	.contact {
 		height: 33vw;
+	}
+
+	.info__job--thin {
+		font-size: 20px;
+	}
+
+	.quotebox__quote  {
+		font-size: 20px;
+	}
+
+	.aboutme__header, .skills__header, .experiencegraduate__header, .projects__header, .articles__header, .contact__header {
+		font-size: 50px
+	}
+
+	.expgra__button {
+		width: 50%;
+		margin-right: 25%;
+		margin-left: 25%;
 	}
 }
