@@ -770,7 +770,7 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 	}
 
 	.skills__myjob {
-		height: 25vh;
+		display: none;
 	}
 
 	.skills {
@@ -829,7 +829,7 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 	}
 
 	.articles {
-		height: 500vw;
+		height: 400vw;
 	}
 
 	.expgra__img {
@@ -843,6 +843,8 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 
 	.contact__flexbox {
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.skills {
