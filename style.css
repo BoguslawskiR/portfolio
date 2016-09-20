@@ -803,9 +803,7 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 	}
 
 	.expgra__button {
-		width: 50%;
-		margin-right: 25%;
-		margin-left: 25%;
+		display: none;
 	}
 }
 
