@@ -751,23 +751,21 @@ MAIN
 	}
 
 	.main__info {
-		width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
 		background-image: url("img/me.png");
 		background-position: center;
+		background-size: cover;
 		font-size: 30px; 
-
+		margin-left: 5vw;
+		margin-right: 5vw;
+		margin-top: 10vh;
+		min-width: 90vw;
+		min-height: 90vh;
 	}
 
 	.info__text {
 		font-size: 50px;
-		margin-top: 10vh;
 	}
 
-	.info__fname {
-		margin-top: 5vh;
-	}
 
 	.links__box {
 		width: 60px;
@@ -845,8 +843,8 @@ SKILLS
 	}
 
 	.box__item {
-	width: 30vw;
-	height: 30vw;
+	width: 15vw;
+	height: 15vw;
 	padding: 10px;
 	}
 
@@ -903,7 +901,8 @@ CONTACT
 	.contact__flexbox {
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
+
 	}
 
 	
