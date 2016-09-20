@@ -840,5 +840,21 @@ MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUER
 	.contact {
 		height: 50vh;
 	}
+
+	.contact__flexbox {
+		flex-direction: column;
+	}
+
+	.skills {
+		height: 200vh;
+	}
+
+	.skills__box {
+		flex-wrap: wrap;
+	}
+
+	.box__want, .box__low, .box__med, .box__high {
+		width: 50%;
+	}
 }
 
