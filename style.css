@@ -904,7 +904,7 @@ CONTACT
 */
 
 	.contact {
-		height: 85vh;
+		height: auto;
 	}
 
 	.info__job--thin {
