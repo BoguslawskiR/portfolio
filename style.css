@@ -215,7 +215,7 @@ Skills
 
 .skills {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -352,7 +352,6 @@ Experience & Graduate
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 }
 
 .expgra {
@@ -392,9 +391,8 @@ Experience & Graduate
 }
 
 .expgra__button {
-	width: 20%;
-	margin-left: 40%;
-	margin-right: 40%;
+	
+	width: 100%;
 	background-color: rgb(255,153,142);
 	color: white;
 	border-radius: 50px;
@@ -405,6 +403,15 @@ Experience & Graduate
     position: relative;
     font-size: 25px;
     margin-top: 5vh;
+    cursor: pointer;
+}
+
+.experiencegraduate__link {
+	cursor: default;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+
 }
 
 .expgra__button:hover {
@@ -841,7 +848,7 @@ SKILLS
 	}
 
 	.skills {
-		height: 100vh;
+		height: auto;
 	}
 
 	.skills__box {
