@@ -8,6 +8,10 @@
 	text-decoration: none;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 /*
 =================================================================
 LANDING PAGE
@@ -925,3 +929,23 @@ CONTACT
 	
 }
 
+@media (max-width: 360px) {
+	.links__box {
+		width: 40px;
+		height: 40px;
+	}
+
+	.experiencegraduate__header, .aboutme__header, .skills__header, .contact__header, .projects__header {
+		font-size: 40px;
+	}
+
+	.contact__info {
+		font-size: 20px;
+	}
+
+	.main__info {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100vw;
+	}
+}
