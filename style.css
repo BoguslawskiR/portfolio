@@ -378,7 +378,10 @@ Experience & Graduate
 	margin-left: 15px;
 	border-bottom: #27ae60 solid 2px;
 	font-size: 16px;
-}
+	border-radius: 10px;
+	-webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.68);
+    box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.68);}
 
 .experiencegraduate__header {
 	font-size: 60px;
@@ -580,7 +583,7 @@ ARTICLES
 .articles {
 	max-width: 100vw;
 	background: black;
-	min-height: 66vh;
+	height: auto;
 }
 
 .articles__header {
@@ -698,7 +701,7 @@ CONTACT
 
 .contact {
 	max-width: 100vw;
-	height: 40vh;
+	height: auto;
 	background: black;
 
 }
@@ -728,6 +731,10 @@ CONTACT
 	color: white;
 	font-size: 35px;
 	padding-top: 10vh;
+	width: 25vw;
+	height: 15vw;
+	border-radius: 5px;
+	margin-bottom: 7vh;
 
 }
 
@@ -745,6 +752,7 @@ CONTACT
 	padding-bottom: 30px;
 }
 
+
 /*
 ================================
 FOOTER
@@ -754,7 +762,7 @@ FOOTER
 .footer {
 	text-align: center;
 	font-size: 10px;
-	max-height: 12px;
+	height: 2vw;
 }
 
 /*
